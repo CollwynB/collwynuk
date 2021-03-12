@@ -27,8 +27,8 @@ function Home() {
             </Accordion>
 
             <center className="links">
-                <a href="https://github.com/CollwynB"><img width="16" src={GHLogo} alt="Github" /></a>
-                <a href="https://www.linkedin.com/in/collwyn-bevan-4a8893170/"><img src={LILogo} alt="LinkedIn" /></a>
+                <a href="https://github.com/CollwynB" target="_blank"><img width="16" src={GHLogo} alt="Github" /></a>
+                <a href="https://www.linkedin.com/in/collwyn-bevan-4a8893170/" target="_blank"><img src={LILogo} alt="LinkedIn" /></a>
             </center>
 
 
