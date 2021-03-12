@@ -1,0 +1,15 @@
+.accordion {
+    overflow: hidden;
+    transition: max-height .2s;
+    /* max-height: 0; */
+}
+
+.button {
+    border-right: 4px solid white;
+    border-top: 4px solid white;
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 16px;
+}

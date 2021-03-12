@@ -1,0 +1,6 @@
+.links {
+    margin: 16px;
+}
+.links > * {
+    margin: 0 8px;
+}

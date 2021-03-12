@@ -1,0 +1,13 @@
+.event-container {
+    border-left: 1px solid white;
+    padding: 16px;
+    position: relative;
+}
+
+.marker {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 8px;
+    border-bottom: 1px solid white;
+}

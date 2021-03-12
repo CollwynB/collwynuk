@@ -1,0 +1,61 @@
+.banner-container {
+    background-color: black;
+    color: white;
+    padding-top: 16px;
+}
+/* 
+a {
+    color: white;
+    text-decoration: none;
+} */
+
+.banner-tab {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border-bottom: 1px solid white;
+    margin-right: 32px;
+    transition: .05s;
+}
+
+.banner-tab:hover {
+    border-bottom: 1px solid rgb(216, 255, 157);
+}
+
+.active-tab > div {
+    font-weight: 700;
+    border-bottom: 2px solid  greenyellow  !important;
+}
+
+.banner-tab-container {
+    display: flex;
+    padding: 0 32px;
+}
+
+.header {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    max-width: min-content;
+    margin: auto;
+}
+
+.title > span {
+    opacity: 0;
+    color: white;
+    animation: appear .2s forwards;
+}
+  
+@keyframes appear {
+    0% {
+        color: white;
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        color: greenyellow;
+        opacity: 1;
+    }
+}
