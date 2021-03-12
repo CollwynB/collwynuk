@@ -10,7 +10,7 @@ function Home() {
         <>
             <center>
                 <h2>
-                    Full stack developer working on web apps using <span style={{ "color": "#61dafb" }}>React</span>/<span style={{ "color": "#4fc08d" }}>Vue</span>,
+                    Full stack developer working on web apps using <span style={{ "color": "#61dafb" }}>React</span>/<span style={{ "color": "#4fc08d" }}>Vue</span> and
                     <span style={{ "color": "#43853d" }}> Node</span>.
                 </h2>
             </center>
