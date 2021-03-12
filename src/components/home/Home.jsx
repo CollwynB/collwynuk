@@ -19,9 +19,9 @@ function Home() {
                 <Event>Started work at the Rapid Prototyping Team at  <span style={highlight}>IBM</span></Event>
                 <Event>Started BSc Digital Technology Solutions at <span style={highlight}>Exeter University</span></Event>
                 <Event marker>2019</Event>
-                <Event>Started delivering the Digital Skills Academy, where new hires are introduced to HTML, CSS, JavaScript, and NodeJS.</Event>
+                <Event>Delivering the Digital Skills Academy, where new hires are introduced to HTML, CSS, JavaScript, and NodeJS.</Event>
                 <Event marker>2020</Event>
-                <Event>uhhh</Event>
+                <Event>Built an online training platform for the digital skills academy</Event>
                 <Event marker>2021</Event>
                 <Event>Remade <a href="https://collwynb.github.io/asteroidsJS/" target="_blank">Asteroids</a> in pure JavaScript</Event>
             </Accordion>
