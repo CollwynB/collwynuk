@@ -7,7 +7,7 @@ function Banner() {
     return (
         <div className="banner-container">
             <div className="header-container">
-                <h1 className="header"><SplitString classes="title" stagger={.1} >Collwyn's lounge</SplitString></h1>
+                <h1 className="header"><SplitString classes="title" stagger={.1} >Collwyn's lounge.</SplitString></h1>
             </div>
             {/* {
                 window.innerWidth < 1260 || window.innerHeight < 700 ? "" :
