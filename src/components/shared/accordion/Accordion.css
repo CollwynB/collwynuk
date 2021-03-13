@@ -10,7 +10,6 @@
     height: 32px;
     width: 32px;
     cursor: pointer;
-    margin: auto;
-    margin-top: 16px;
+    margin: 16px auto;
     transition: .1s ease-out;
 }
