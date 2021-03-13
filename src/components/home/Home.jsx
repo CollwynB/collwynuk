@@ -15,15 +15,15 @@ function Home() {
                 </h2>
             </center>
             <Accordion>
+                <Event marker>2021</Event>
+                <Event>Remade <a href="https://collwynb.github.io/asteroidsJS/" target="_blank">Asteroids</a> in pure JavaScript</Event>
+                <Event marker>2020</Event>
+                <Event>Built an online training platform for the digital skills academy</Event>
+                <Event marker>2019</Event>
+                <Event>Delivering the Digital Skills Academy, where new hires are introduced to HTML, CSS, JavaScript, and NodeJS.</Event>
                 <Event marker>2018</Event>
                 <Event>Started work at the Rapid Prototyping Team at  <span style={highlight}>IBM</span></Event>
                 <Event>Started BSc Digital Technology Solutions at <span style={highlight}>Exeter University</span></Event>
-                <Event marker>2019</Event>
-                <Event>Delivering the Digital Skills Academy, where new hires are introduced to HTML, CSS, JavaScript, and NodeJS.</Event>
-                <Event marker>2020</Event>
-                <Event>Built an online training platform for the digital skills academy</Event>
-                <Event marker>2021</Event>
-                <Event>Remade <a href="https://collwynb.github.io/asteroidsJS/" target="_blank">Asteroids</a> in pure JavaScript</Event>
             </Accordion>
             <div className="open-menu" onClick={() => setMenuClosed(!menuClosed)}>
                 <div className="work-arrow"></div>
