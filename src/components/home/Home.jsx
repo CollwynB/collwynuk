@@ -4,7 +4,7 @@ import Accordion from '../shared/accordion/Accordion.jsx'
 import Showcase from '../showcase/Showcase'
 import "./Home.css"
 function Home() {
-    const [menuClosed, setMenuClosed] = useState(0)
+    const [menuClosed, setMenuClosed] = useState(1)
     const highlight = { "color": "#0f62fe" }
     return (
         <>
