@@ -3,7 +3,7 @@ import "./Project.css"
 function Project({ side = "", img = "", title = "title not found", children = "description not found", link }) {
     return (
         <div className={"project-card"}>
-            <a href={link} target="_blank">
+            <a href={link} target="_blank" rel="noreferrer">
 
                 <div className="overlay">
                     <h2>{title}</h2>

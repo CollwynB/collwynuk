@@ -6,6 +6,7 @@ import "./Home.css"
 function Home() {
     const [menuClosed, setMenuClosed] = useState(1)
     const highlight = { "color": "#0f62fe" }
+
     return (
         <>
             <center>
@@ -16,7 +17,7 @@ function Home() {
             </center>
             <Accordion>
                 <Event marker>2021</Event>
-                <Event>Remade <a href="https://collwynb.github.io/asteroidsJS/" target="_blank">Asteroids</a> in pure JavaScript</Event>
+                <Event>Remade <a href="https://collwynb.github.io/asteroidsJS/" target="_blank" rel="noreferrer">Asteroids</a> in pure JavaScript</Event>
                 <Event marker>2020</Event>
                 <Event>Built an online training platform for the digital skills academy</Event>
                 <Event marker>2019</Event>
@@ -26,8 +27,11 @@ function Home() {
                 <Event>Started BSc Digital Technology Solutions at <span style={highlight}>Exeter University</span></Event>
             </Accordion>
             <div className="open-menu" onClick={() => setMenuClosed(!menuClosed)}>
-                <div className="work-arrow"></div>
-                <div className="work-arrow" style={menuClosed ? {} : { transform: "rotate(45deg) translateX(-8px) translateY(8px)" }}></div>
+                <div>
+                    <div className="work-arrow"></div>
+                    <div className="work-arrow" style={menuClosed ? {} : { transform: "rotate(45deg) translateX(-8px) translateY(8px)" }}></div>
+                </div>
+                Projects
             </div>
             <div className="my-work" style={{ "right": "-" + 256 * menuClosed + "px" }}>
                 <center>
@@ -36,8 +40,8 @@ function Home() {
                 <Showcase></Showcase>
             </div>
             <center className="links">
-                <a href="https://github.com/CollwynB" target="_blank"><img width="16" src={"/assets/GitHub-Mark-Light-32px.png"} alt="Github" /></a>
-                <a href="https://www.linkedin.com/in/collwyn-bevan-4a8893170/" target="_blank"><img src={"/assets/linkedin-3-16.png"} alt="LinkedIn" /></a>
+                <a href="https://github.com/CollwynB" target="_blank" rel="noreferrer"><img width="16" src={"/assets/GitHub-Mark-Light-32px.png"} alt="Github" /></a>
+                <a href="https://www.linkedin.com/in/collwyn-bevan-4a8893170/" target="_blank" rel="noreferrer"><img src={"/assets/linkedin-3-16.png"} alt="LinkedIn" /></a>
             </center>
 
 

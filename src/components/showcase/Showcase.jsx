@@ -19,7 +19,7 @@ function Showcase() {
     return (
         <div className="showcase-container">
             {projects.map(project => {
-                return <Project title={project.title} img={project.img} link={project.link}>{project.description} </Project>
+                return <Project title={project.title} img={project.img} link={project.link} key={project.description}>{project.description} </Project>
             })}
         </div>
     )
